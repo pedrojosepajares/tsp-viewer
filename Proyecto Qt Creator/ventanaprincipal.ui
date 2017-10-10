@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaPrincipal</class>
+ <widget class="QMainWindow" name="VentanaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>416</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VentanaPrincipal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="layout_datos">
+      <item>
+       <widget class="QGroupBox" name="group_box_fichero">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string>Datos del problema</string>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="1">
+          <layout class="QVBoxLayout" name="layout_datos_problemas">
+           <item>
+            <widget class="QLabel" name="label_nombre_problema">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_numero_ciudades">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_optimo">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="layout_nombres_dato_problema">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Problema:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Nº de ciudades:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Óptimo:</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="2">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+        <zorder>verticalLayoutWidget_4</zorder>
+        <zorder>verticalLayoutWidget_5</zorder>
+        <zorder>group_box_algoritmos</zorder>
+        <zorder>horizontalSpacer</zorder>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="layout_ejecuciones">
+      <item>
+       <widget class="QGroupBox" name="group_box_algoritmos">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string>Ejecuciones</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="1">
+          <layout class="QVBoxLayout" name="layout_botones_algoritmos">
+           <item alignment="Qt::AlignTop">
+            <widget class="QPushButton" name="boton_nueva_ejecucion">
+             <property name="text">
+              <string>Nueva ejecución</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="boton_eliminar_ejecucion">
+             <property name="text">
+              <string>Eliminar ejecuciones</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="boton_eliminar_todo">
+             <property name="text">
+              <string>Eliminar todas</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="layout_lista_ejecuciones"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QVBoxLayout" name="layout_resultados">
+      <item>
+       <widget class="QGroupBox" name="group_box_resultados">
+        <property name="title">
+         <string>Resultados</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="2" column="0">
+          <widget class="QPushButton" name="boton_video">
+           <property name="text">
+            <string>Evolución de una solución en vídeo</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="boton_grafico_convergencia">
+           <property name="text">
+            <string>Gráfico de convergencia</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="boton_representacion_solucion">
+           <property name="text">
+            <string>Evolución de una solución</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+   <zorder>verticalLayoutWidget_3</zorder>
+   <zorder>verticalLayoutWidget_6</zorder>
+   <zorder>group_box_algoritmos</zorder>
+   <zorder>verticalLayoutWidget_7</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>416</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="accion_nueva_simulacion"/>
+    <addaction name="accion_salir"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="accion_ayuda"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="accion_nueva_simulacion">
+   <property name="text">
+    <string>Nueva simulación</string>
+   </property>
+  </action>
+  <action name="accion_salir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="accion_prueba">
+   <property name="text">
+    <string>Pestaña prueba</string>
+   </property>
+  </action>
+  <action name="accion_ayuda">
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

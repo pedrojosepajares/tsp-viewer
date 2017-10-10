@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>ayuda</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <filterSection>
+        <toc>
+        <section title="Ayuda general" ref="index.html">
+             <section title="Cargar una especificación TSP" ref="especificiacion_cargar.html"></section>
+        
+            <section title="Ejecuciones" ref="ejecuciones.html">
+                <section title="Generar ejecuciones" ref="ejecuciones_generar.html"></section>
+                <section title="Eliminar ejecuciones" ref="ejecuciones_eliminar.html"></section>
+            </section>
+            
+            <section title="Representaciones" ref="representaciones.html">
+                <section title="Gráfico de evolución de una solución" ref="representaciones_evolucion.html"></section>
+                <section title="Gráfico de convergencia" ref="representaciones_convergencia.html"></section>
+                <section title="Vídeo" ref="representaciones_video.html"></section>
+            </section>
+        </section>   
+        </toc>
+        <keywords>
+            <keyword name="Insert rectangle" ref="especificiacion_cargar.html"/>
+            <keyword name="Insert ellipse" ref="especificiacion_cargar.html"/>
+            <keyword name="Delete object" ref="especificiacion_cargar.html"/>
+        </keywords>
+        <files>
+            <file>index.html</file>
+            <file>especificiacion_cargar.html</file>
+            <file>ejecuciones.html</file>
+            <file>ejecuciones_generar.html</file>
+            <file>ejecuciones_eliminar.html</file>
+            <file>representaciones.html</file>
+            <file>representaciones_evolucion.html</file>
+            <file>representaciones_convergencia.html</file>
+            <file>representaciones_video.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>
