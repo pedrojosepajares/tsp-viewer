@@ -33,7 +33,7 @@ Tras arrancar la aplicación, se aprecian cuatro zonas diferenciadas en la inter
 4. Resultados
 
 Una simulación se realiza en varios pasos
-1. **Lectura del fichero de especificación**. El usuario debe hacer click en *Archivo*, en la barra superior, y en *Nueva simulación*. En la interfaz de selección de ficheros hay que seleccionar una especificación para un problema TSP, contenida en un fichero con extensión *.tsp*. En el directorio *run/problemas TSP* existen varios ficheros que se pueden utilizar.
+1. **Lectura del fichero de especificación**. El usuario debe hacer click en *Archivo*, en la barra superior, y en *Nueva simulación*. En la interfaz de selección de ficheros hay que seleccionar una especificación para un problema TSP, contenida en un fichero con extensión *.tsp*. En el directorio *run/problemas TSP/* existen varios ficheros que se pueden utilizar.
 Se puede observar en el apartado *Datos del problema* algunas características de la especificación seleccionada.
 
 2. **Generación de ejecuciones**. Si el usuario hace click en el botón *Nueva simulación* del apartado *Ejecuciones* accede a un menú donde puede seleccionar qué algoritmos heurísticos desea que resuelva el problema y establecer criterios de parada para los mismos.
