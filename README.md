@@ -29,9 +29,9 @@ Los ficheros *.tsp* que contienen la especificación de cada problema han sido p
 
 ## Tecnologías
 Las tecnologías utilizadas para la construcción de este proyecto son:
-* C++
-* [QtCreator](https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide)
-* [Qt](https://www.qt.io/)
-* [OpenCV](https://opencv.org/)
+* C++ - Lenguaje de desarrollo
+* [QtCreator](https://www.qt.io/qt-features-libraries-apis-tools-and-ide/#ide) - IDE 
+* [Qt](https://www.qt.io/) - Gestión de componentes gráficos de la aplicación, comunicación entre ellos y control de ejecuciones concurrentes
+* [OpenCV](https://opencv.org/) - Creación de simulaciones en vídeo
 
 
