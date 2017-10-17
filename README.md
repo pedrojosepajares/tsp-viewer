@@ -55,4 +55,6 @@ Las tecnologías utilizadas para la construcción de este proyecto son:
 * [Qt](https://www.qt.io/) - Gestión de componentes gráficos de la aplicación, comunicación entre ellos y control de ejecuciones concurrentes
 * [OpenCV](https://opencv.org/) - Creación de simulaciones en vídeo
 
+## Autores
+* Pedro José Pajares Ramírez
 
